@@ -3,7 +3,7 @@ function validateLogin() {
     const password = document.getElementById('password').value;
     const errorMessage = document.getElementById('error-message');
 
-    if (username === 'admin' && password === 'password123') {
+    if (username === 'admin' && password === '12345') {
         sessionStorage.setItem('loggedIn', 'true');
         return true;
     } else {
